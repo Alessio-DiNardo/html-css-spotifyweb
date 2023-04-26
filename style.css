@@ -15,6 +15,13 @@ div.container{
     align-content: space-between;
 }
 
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
 /* HEADER */
 header{
     width: calc(400px - 150px);
@@ -78,8 +85,9 @@ li.bordo{
 
 main{
     width: calc(100vw - 150px);
-    background-color: red;
-    height: 500px;
+    background-color: rgb(20, 25, 34);
+    height: 825px;
+    color: grey;
 }
 
 section.premain{
@@ -98,8 +106,11 @@ button{
     margin-top: 1rem;
 }
 
+/* !SECTION ONE */
 
-
+section.menù ul li{
+    padding: 0.5rem 1rem;
+}
 
 
 /* FOOTER */
