@@ -26,6 +26,7 @@ div.container{
     justify-content: start;
 }
 
+
 /* HEADER */
 header{
     width: calc(400px - 150px);
@@ -157,6 +158,73 @@ div.row.flex-start div.card{
 footer{
     height: 100px;
     width: 100vw;
-    background-color: orange;
+    background-color: rgb(40, 40, 40);
 
+}
+
+span{
+    color: white;
+}
+
+div ul li img{
+    width: 3rem;
+}
+
+nav.player{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+ul.current{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    
+}
+
+
+div.brano{
+    padding: 1rem;
+
+}
+
+li.text{
+    max-width: 90px;
+    line-height: 0.8rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+li.simbol{
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    font-size: 0.5rem;
+    color: grey;
+}
+
+ul.current li{
+    padding-right: 1rem;
+}
+
+ul.start{
+    display: flex;
+    color: white;
+    padding-top: 0.3rem;
+}
+
+ul.start li{
+    padding-right: 1rem;
+}
+
+ul.display li{
+    padding-right: 1rem;
+    
+}
+
+ul.display{
+    color: white;
+    display: flex;
+    padding-top: 1rem
 }
