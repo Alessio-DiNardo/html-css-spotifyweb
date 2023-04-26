@@ -19,14 +19,18 @@ div.container{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+}
+
+.flex-start {
+    display: flex;
+    justify-content: start;
 }
 
 /* HEADER */
 header{
     width: calc(400px - 150px);
     background-color: rgb(0, 0, 0);
-    height: 825px;
+    height: 938px;
     color: grey;
 }
 
@@ -44,7 +48,7 @@ div.padding{
 }
 
 div.padding-bottom{
-    padding-top: 12.8rem;
+    padding-top: 19.8rem;
 }
 
 div.space{
@@ -86,7 +90,7 @@ li.bordo{
 main{
     width: calc(100vw - 150px);
     background-color: rgb(20, 25, 34);
-    height: 825px;
+    overflow-y: scroll;
     color: grey;
 }
 
@@ -112,11 +116,9 @@ section.menù ul li{
     padding: 0.5rem 1rem;
 }
 
-/* !SECTION TWO */
-
 h1.white{
     color: white;
-    padding: 1rem 2.5rem;
+    padding: 1rem 1rem;
 }
 
 div.card{
@@ -125,8 +127,8 @@ div.card{
 }
 
 div.card img{
-    width: 10rem;
-    margin-right: 1rem;
+    width: 15rem;
+    
 }
 
 h2{
@@ -137,8 +139,21 @@ h2{
 
 
 
+/* !SECTION TWO */
 
+section.for{
+    padding-top: 2rem;
+}
+
+section.for sub{
+    padding-left: 1rem;
+}
+
+div.row.flex-start div.card{
+    padding-top: 1rem;
+}
 /* FOOTER */
+
 footer{
     height: 100px;
     width: 100vw;
