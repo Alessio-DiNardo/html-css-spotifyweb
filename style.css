@@ -95,7 +95,7 @@ main{
     background-color: rgb(20, 25, 34);
     overflow-y: hidden;
     color: grey;
-    height: 1200px;
+    height: calc(100vh - 150px)
 }
 
 section.premain{
