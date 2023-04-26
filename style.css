@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+div.container{
+    width: 100%;
+    display: flex;
+}
+
+/* HEADER */
+header{
+    width: calc(400px - 150px);
+    background-color: blue;
+    height: 500px;
+}
+
+main{
+    width: calc(100vw - 150px);
+    background-color: red;
+    height: 500px;
+}
+
+footer{
+    height: 200px;
+    width: 100vw;
+    background-color: orange;
+
+}
