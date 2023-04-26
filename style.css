@@ -74,7 +74,7 @@ li.bordo{
 
 
 
-
+/* MAIN */
 
 main{
     width: calc(100vw - 150px);
@@ -82,8 +82,29 @@ main{
     height: 500px;
 }
 
+section.premain{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(8, 11, 18);
+    text-align: end;
+}
+
+button{
+    padding: 0.5rem 2rem;
+    background: none;
+    border-radius: 20rem;
+    color: white;
+    border-color: white;
+    margin-top: 1rem;
+}
+
+
+
+
+
+/* FOOTER */
 footer{
-    height: 200px;
+    height: 100px;
     width: 100vw;
     background-color: orange;
 
