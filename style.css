@@ -93,8 +93,9 @@ li.bordo{
 main{
     width: calc(100vw - 150px);
     background-color: rgb(20, 25, 34);
-    overflow-y: scroll;
+    overflow-y: hidden;
     color: grey;
+    height: 1200px;
 }
 
 section.premain{
