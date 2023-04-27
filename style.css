@@ -264,6 +264,30 @@ ul.display{
     font-size: 0.8rem;
 }
 
+div.time{
+    display: flex;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+div.bar.bar-grey{
+    width: 200px;
+    background-color: grey;
+    height: 3px;
+    
+}
+
+div.bar.bar-white{
+    width: 50px;
+    background-color: white;
+    height: 3px;
+    
+}
+
+span.number{
+
+}
+
 /* MEDIA QUERY */
 
 @media screen and (max-width: 878px){
