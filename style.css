@@ -86,7 +86,9 @@ li.bordo{
     font-size: 0.8rem;
 }
 
-
+li.small{
+    display: none;
+}
 
 /* MAIN */
 
@@ -306,11 +308,37 @@ ul.display{
         background-color: rgb(0, 0, 0);
         color: grey;
 }
-    div.padding{
+    div.invisible{
         display: none;
     }
-    .fa-sharp.fa-solid.fa-house{
-        display: inline
+
+    span.invisible{
+        display: none;
     }
 
+    li.logo{
+        display: none;
+    }
+    
+    li.small{
+        display: contents;
+        width: 2rem;
+    }
+
+    li.small img{
+        width: 2rem;
+    }
+
+    div.padding{
+        text-align: center;
+    }
+
+    div.space{
+        padding-right: 1rem;
+    }
+
+    
 }
+    
+
+
