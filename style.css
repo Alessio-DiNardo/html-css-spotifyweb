@@ -130,7 +130,7 @@ h1.white{
 div.card{
     text-align: center;
     width: calc((100% / 6) - 0.5rem);
-    margin-right: 0.5rem;
+    margin-right: 1rem;
     
 }
 
@@ -250,13 +250,6 @@ ul.display{
     padding-top: 1rem
 }
 
-div.bar{
-    width: 200px;
-    height: 2px;
-    background-color: white;
-
-}
-
 .fa-solid.fa-list{
     font-size: 0.8rem;
 }
@@ -267,4 +260,17 @@ div.bar{
 
 .fa-solid.fa-volume-high{
     font-size: 0.8rem;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 878px){
+    div.card{
+        text-align: center;
+        width: calc((100% / 4) - 0.5rem);
+        margin-right: 1rem;
+    
+    }
+
+
 }
