@@ -294,3 +294,23 @@ ul.display{
     
     }
 }
+
+@media screen and (max-width: 552px){
+    div.card{
+        text-align: center;
+        width: calc((100% / 2) - 1rem);
+        margin-right: 1rem;
+    }
+    header{
+        max-width: 100px;
+        background-color: rgb(0, 0, 0);
+        color: grey;
+}
+    div.padding{
+        display: none;
+    }
+    .fa-sharp.fa-solid.fa-house{
+        display: inline
+    }
+
+}
