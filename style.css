@@ -267,10 +267,30 @@ ul.display{
 @media screen and (max-width: 878px){
     div.card{
         text-align: center;
-        width: calc((100% / 4) - 0.5rem);
+        width: calc((100% / 5) - 0.5rem);
         margin-right: 1rem;
     
     }
+    
+    div.row.flex.flex-row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
 
 
+    ul.flex.flex-row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 639px){
+    div.card{
+        text-align: center;
+        width: calc((100% / 2) - 1rem);
+        margin-right: 1rem;
+    
+    }
 }
