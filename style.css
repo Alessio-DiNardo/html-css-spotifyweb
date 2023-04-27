@@ -271,21 +271,21 @@ div.time{
 }
 
 div.bar.bar-grey{
-    width: 200px;
+    width: 515px;
     background-color: grey;
     height: 3px;
     
 }
 
 div.bar.bar-white{
-    width: 50px;
+    width: 110px;
     background-color: white;
     height: 3px;
     
 }
 
 div.button ul.start{
-    padding-left: 2rem;
+    padding-left: 8rem;
 }
 
 /* MEDIA QUERY */
