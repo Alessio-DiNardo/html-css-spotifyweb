@@ -191,6 +191,18 @@ div.row.flex-start{
     padding-left: 1rem;
 }
 
+div.play{
+    position: relative;
+}
+
+span.cicle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+}
 
 /* FOOTER */
 
