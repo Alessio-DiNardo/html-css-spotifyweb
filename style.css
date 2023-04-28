@@ -187,6 +187,7 @@ footer{
 
 span{
     color: white;
+    padding: 0 2rem;
 }
 
 div ul li img{
@@ -268,24 +269,25 @@ div.time{
     display: flex;
     justify-content: center;
     margin-left: 2rem;
+    align-items: center;
 }
 
 div.bar.bar-grey{
-    width: 515px;
+    width: 399px;
     background-color: grey;
     height: 3px;
     
 }
 
 div.bar.bar-white{
-    width: 110px;
+    width: 70px;
     background-color: white;
     height: 3px;
     
 }
 
 div.button ul.start{
-    padding-left: 8rem;
+    padding-left: 15rem;
 }
 
 /* MEDIA QUERY */
