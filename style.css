@@ -90,6 +90,9 @@ li.small{
     display: none;
 }
 
+span.white{
+    color: white;
+}
 /* MAIN */
 
 main{
@@ -116,6 +119,11 @@ button{
     margin-top: 1rem;
 }
 
+section.premain button:hover{
+    padding: 1rem 3rem;
+}
+
+
 /* !SECTION ONE */
 
 section.menù ul li{
@@ -123,6 +131,14 @@ section.menù ul li{
 }
 
 /* !SECTION TWO */
+
+div.card img:hover{
+    opacity: 0.25;
+}
+
+.hover:hover{
+    color: white;
+}
 
 h1.white{
     color: white;
@@ -185,9 +201,9 @@ footer{
 
 }
 
-span{
+span.number{
     color: white;
-    padding: 0 2rem;
+    
 }
 
 div ul li img{
@@ -219,6 +235,7 @@ li.text{
     line-height: 0.8rem;
     padding-left: 0.5rem;
     padding-top: 0.5rem;
+    color: grey;
 }
 
 li.simbol{
@@ -287,7 +304,15 @@ div.bar.bar-white{
 }
 
 div.button ul.start{
-    padding-left: 15rem;
+    padding-left: 11rem;
+}
+
+div.bar.bar-white:hover{
+    background-color: greenyellow;
+}
+
+li.text sub:hover{
+    color: white;
 }
 
 /* MEDIA QUERY */
@@ -330,10 +355,15 @@ div.button ul.start{
         margin-right: 1rem;
     }
     header{
-        max-width: 100px;
+        max-width: 50px;
         background-color: rgb(0, 0, 0);
         color: grey;
 }
+    main{
+    width: calc(100vw - 50px);
+    
+}
+
     div.invisible{
         display: none;
     }
@@ -363,6 +393,9 @@ div.button ul.start{
         padding-right: 1rem;
     }
 
+    div.padding{
+        padding: 0.2rem;
+    }
     
 }
     
